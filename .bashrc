@@ -113,6 +113,8 @@ if [[ -n "$ZSH_VERSION" ]]; then # Zsh
   bindkey "\e\eB" down-line-or-beginning-search
   bindkey "^[[A" up-line-or-beginning-search
   bindkey "^[[B" down-line-or-beginning-search
+  bindkey "^[OA" up-line-or-beginning-search
+  bindkey "^[OB" down-line-or-beginning-search
 
   bindkey "^N" forward-word
   bindkey "^P" backward-word
