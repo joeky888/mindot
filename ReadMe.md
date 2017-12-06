@@ -36,7 +36,7 @@ Features
         *  F2 - New tab
         *  F3 - Next tab
         *  F4 - Previous tab
-        *  F7 - Copy mode
+        *  F7 - Copy mode (Press Q to leave Copy mode)
 * vimrc
     * No plugins, just one file
     * Autocompletion
@@ -44,14 +44,14 @@ Features
     * Support mouse selection and mouse scrolling if `gpm` is installed
     * Credit: [Minivim](https://github.com/sd65/MiniVim)
 * fbtermrc
-    * Use Ubuntu Mono font and Droid Sans Fallback
+    * Use Ubuntu Mono font and Droid Sans Fallback font
     * Font size by default is 20
 
 ## Vim key mappings
 
 | Keys      | Action                                                | Description |
 | --------- | ----------------------------------------------------- | ----------- |
-| Ctrl S    | Save                                                  | Just like modern text editors |
+| Ctrl S    | Save current file                                     | Just like modern text editors |
 | Tab       | Indent                                                | |
 | Shift Tab | Unindent                                              | |
 
