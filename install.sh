@@ -19,12 +19,12 @@ find /usr/share/nano/ -iname "*.nanorc" -exec echo include {} \; > ~/.nanorc
 rm -rf ~/mindot
 git clone --depth=1 https://github.com/j16180339887/mindot.git ~/mindot
 
-if [ -f "~/.bashrc" ]       && mv ~/.bashrc ~/.bashrc.bak
-if [ -f "~/.bash_profile" ] && mv ~/.bash_profile ~/.bash_profile.bak
-if [ -f "~/.tmux.conf" ]    && mv ~/.tmux.conf ~/.tmux.conf.bak
-if [ -f "~/.zshrc" ]        && mv ~/.zshrc ~/.zshrc.bak
-if [ -f "~/.vimrc" ]        && mv ~/.vimrc ~/.vimrc.bak
-if [ -f "~/.fbtermrc" ]     && mv ~/.bashrc ~/.fbtermrc.bak
+[ -f "~/.bashrc" ]       && mv ~/.bashrc ~/.bashrc.bak
+[ -f "~/.bash_profile" ] && mv ~/.bash_profile ~/.bash_profile.bak
+[ -f "~/.tmux.conf" ]    && mv ~/.tmux.conf ~/.tmux.conf.bak
+[ -f "~/.zshrc" ]        && mv ~/.zshrc ~/.zshrc.bak
+[ -f "~/.vimrc" ]        && mv ~/.vimrc ~/.vimrc.bak
+[ -f "~/.fbtermrc" ]     && mv ~/.bashrc ~/.fbtermrc.bak
 
 ln -sf ~/mindot/.bashrc ~/.bashrc
 ln -sf ~/mindot/.bashrc ~/.bash_profile

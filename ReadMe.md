@@ -1,5 +1,9 @@
 ![Virtualbox](https://i.imgur.com/fVouqMd.png)
 
+Fbterm + Tmux + Vim = 256 colors without X
+
+CJK characters are supported.
+
 Tested on Debian and Ubuntu server under Virtualbox.
 
 Warning: this project is only tested under Virtualbox, backup everything if you like to test it on other machines.
