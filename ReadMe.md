@@ -17,7 +17,7 @@ Warning: this project is only tested under Virtualbox, backup everything if you 
 Install
 ====
 ```bash
-sudo apt install curl zsh -y # Zsh is optional
+sudo apt install curl zsh gpm -y # zsh and gpm are optional
 curl -s https://raw.githubusercontent.com/j16180339887/mindot/master/install.sh | bash
 sudo reboot
 ```
@@ -41,7 +41,11 @@ Features
     * No plugins, just one file
     * Autocompletion
     * 256-color Monokai theme
+    * Support mouse selection and mouse scrolling if `gpm` is installed
     * Credit: [Minivim](https://github.com/sd65/MiniVim)
+* fbtermrc
+    * Use Ubuntu Mono font and Droid Sans Fallback
+    * Font size by default is 20
 
 ## Vim key mappings
 
