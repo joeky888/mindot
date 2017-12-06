@@ -1,4 +1,10 @@
+Debian
+
 ![Virtualbox](https://i.imgur.com/fVouqMd.png)
+
+Ubuntu server + CJK characters
+
+![Virtualbox](https://i.imgur.com/eJpa9D6.png)
 
 Fbterm + Tmux + Vim = 256 colors without X
 
@@ -13,6 +19,7 @@ Install
 ```bash
 sudo apt install curl zsh -y # Zsh is optional
 curl -s https://raw.githubusercontent.com/j16180339887/mindot/master/install.sh | bash
+sudo reboot
 ```
 
 Features
