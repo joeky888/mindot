@@ -49,6 +49,8 @@ Features
 * fbtermrc
     * Use Ubuntu Mono font and Droid Sans Fallback font
     * Font size by default is 20
+* gpm (if it is installed)
+    * By default, left mouse click is copying and right mouse click is pasting
 
 ## Vim key mappings
 
