@@ -6,7 +6,7 @@ Ubuntu server + CJK characters
 
 ![Virtualbox](https://i.imgur.com/eJpa9D6.png)
 
-Fbterm + Tmux + Vim = 256 colors without X
+Fbterm + Tmux + Vim + GPM = 256 colors + Mouse without X
 
 CJK characters are supported.
 
