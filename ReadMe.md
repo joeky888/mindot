@@ -1,3 +1,5 @@
+![Virtualbox](https://i.imgur.com/fVouqMd.png)
+
 Tested on Debian and Ubuntu server under Virtualbox.
 
 Warning: this project is only tested under Virtualbox, backup everything if you like to test it on other machines.
