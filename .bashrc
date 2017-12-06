@@ -109,10 +109,10 @@ if [[ -n "$ZSH_VERSION" ]]; then # Zsh
   bindkey "\e\e[D" backward-word
 
   # Up/Down keys for searching history
-  bindkey "\e\eA" up-line-or-search
-  bindkey "\e\eB" down-line-or-search
-  bindkey "^[[A" up-line-or-search
-  bindkey "^[[B" down-line-or-search
+  bindkey "\e\eA" up-line-or-beginning-search
+  bindkey "\e\eB" down-line-or-beginning-search
+  bindkey "^[[A" up-line-or-beginning-search
+  bindkey "^[[B" down-line-or-beginning-search
 
   bindkey "^N" forward-word
   bindkey "^P" backward-word
