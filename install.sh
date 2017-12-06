@@ -50,10 +50,13 @@ $SUDO sed -i '/GRUB_CMDLINE_LINUX/d' /etc/default/grub
 $SUDO sed -i '/GRUB_GFXMODE/d' /etc/default/grub
 $SUDO sed -i '/GRUB_GFXPAYLOAD_LINUX/d' /etc/default/grub
 
-$SUDO echo 'GRUB_CMDLINE_LINUX_DEFAULT="nomodeset"' >> /etc/default/grub
-$SUDO echo 'GRUB_CMDLINE_LINUX=""' >> /etc/default/grub
-$SUDO echo 'GRUB_GFXMODE=1024x768x16' >> /etc/default/grub
-$SUDO echo 'GRUB_GFXPAYLOAD_LINUX=1024x768x16' >> /etc/default/grub
+$SUDO sed -i -e "\$aGRUB_CMDLINE_LINUX_DEFAULT='nomodeset'" /etc/default/grub
+$SUDO sed -i -e "\$aGRUB_CMDLINE_LINUX=''" /etc/default/grub
+$SUDO sed -i -e "\$aGRUB_GFXMODE=1024x768x16" /etc/default/grub
+$SUDO sed -i -e "\$aGRUB_GFXPAYLOAD_LINUX=1024x768x16" /etc/default/grub
+# $SUDO echo 'GRUB_CMDLINE_LINUX=""' >> /etc/default/grub
+# $SUDO echo 'GRUB_GFXMODE=1024x768x16' >> /etc/default/grub
+# $SUDO echo 'GRUB_GFXPAYLOAD_LINUX=1024x768x16' >> /etc/default/grub
 
 $SUDO update-grub && $SUDO update-grub2
 
