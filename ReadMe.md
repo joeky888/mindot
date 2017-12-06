@@ -17,9 +17,12 @@ Warning: this project is only tested under Virtualbox, backup everything if you 
 Install
 ====
 ```bash
-sudo apt install curl zsh gpm -y # zsh and gpm are optional
+(sudo) apt install curl zsh gpm -y # zsh and gpm are optional
+
+# Don't use sudo in the following line
 curl -s https://raw.githubusercontent.com/j16180339887/mindot/master/install.sh | bash
-sudo reboot
+
+(sudo) reboot
 ```
 
 Features
