@@ -68,3 +68,58 @@ Features
 | AutoCompleteDisable   | Disable autocompletion | |
 
 The code is under Public-domain licence.
+
+### Change the default 16 colors
+
+In order to change the original 16 tty colors, you need to reinstall fbterm from github.
+
+```sh
+sudo apt remove fbterm -y
+sudo apt install libgpm-dev libconfig1-dev libfreetype6-dev libx86-dev pkg-config -y
+git clone https://github.com/ccapitalK/fbterm.git && cd fbterm
+./configure && make && sudo make install
+```
+
+then edit fbtermrc file like this
+
+```conf
+color-foreground=7
+color-background=0
+color-0=000000
+color-1=AA0000
+color-2=00AA00
+color-3=AA5500
+color-4=0000AA
+color-5=AA00AA
+color-6=00AAAA
+color-7=AAAAAA
+color-8=555555
+color-9=FF5555
+color-10=55FF55
+color-11=FFFF55
+color-12=5555FF
+color-13=FF55FF
+color-14=55FFFF
+color-15=FFFFFF
+```
+
+Here is my fbtermrc setting, with Monokai colors
+
+```conf
+color-0=000000
+color-1=AF0000
+color-2=00AF00
+color-3=FFFF00
+color-4=66D9EF
+color-5=AE81FF
+color-6=A1EFE4
+color-7=F8F8F2
+color-8=7E8E91
+color-9=F92672
+color-10=A6E22E
+color-11=F4BF75
+color-12=66D9EF
+color-13=AE81FF
+color-14=A1EFE4
+color-15=FFFFFF
+```
