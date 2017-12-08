@@ -75,7 +75,7 @@ In order to change the original 16 tty colors, you need to reinstall fbterm from
 
 ```sh
 sudo apt remove fbterm -y
-sudo apt install libgpm-dev libconfig1-dev libfreetype6-dev libx86-dev pkg-config -y
+sudo apt install libgpm-dev libfontconfig1-dev libfreetype6-dev libx86-dev pkg-config -y
 git clone https://github.com/ccapitalK/fbterm.git && cd fbterm
 ./configure && make && sudo make install
 ```
