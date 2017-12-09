@@ -107,7 +107,7 @@ Here is my fbtermrc setting, with Monokai colors
 
 ```conf
 color-0=000000
-color-1=AF0000
+color-1=E90000
 color-2=00AF00
 color-3=FFFF00
 color-4=66D9EF
