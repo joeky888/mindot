@@ -106,11 +106,11 @@ color-15=FFFFFF
 Here is my fbtermrc setting, with Monokai colors
 
 ```conf
-color-0=000000
+color-0=1B1D1E
 color-1=E90000
 color-2=00AF00
 color-3=FFFF00
-color-4=66D9EF
+color-4=00AFFF
 color-5=AE81FF
 color-6=A1EFE4
 color-7=F8F8F2
@@ -121,5 +121,5 @@ color-11=F4BF75
 color-12=66D9EF
 color-13=AE81FF
 color-14=A1EFE4
-color-15=FFFFFF
+color-15=F8F8F2
 ```
